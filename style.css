@@ -193,6 +193,14 @@ footer {
     .grid-4 {
         grid-template-columns: 1fr;
     }
+    .navbar{
+        position: relative;
+    }
+    .navbar-toggler-icon{
+        position: absolute;
+        right: -15rem;
+top: -3rem;
+    }
 }
 
 /* Medium devices (tablets, upto 768px and above) */

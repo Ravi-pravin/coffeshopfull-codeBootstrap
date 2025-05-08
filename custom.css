@@ -1,151 +1,198 @@
-.heroheadingFont{
+.heroheadingFont {
     font-family: var(--ffPrimary);
-    font-weight: 800;
-    font-size: 5.5rem;
+    font-weight: 900;
+    font-size: 7rem;
     color: #000000;
 }
-.headingFont{
+
+.headingFont {
     font-family: var(--ffPrimary);
     font-weight: 800;
     font-size: 4rem;
     color: #000000;
 }
-.subtitle{
+
+.subtitle {
     font-family: var(--ffSecondary);
     font-size: 2rem;
     color: #000000;
 }
-.paraFont{
+
+.paraFont {
     font-family: var(--ffSecondary);
     font-size: 1.5rem;
     color: #000000;
 }
-.regularFont{
+
+.regularFont {
     font-family: var(--ffPrimary);
     font-weight: 800;
     font-size: 1.6rem;
     color: #000000;
 }
-.span{
-    color:#BE9C79 ;
+
+.span {
+    color: #BE9C79;
 }
 
 
-.navBarSection{
+.navBarSection {
     /* background-color: #00ffff; */
 }
-.navbar-nav a{
+
+.navbarr {
+    padding-right: 24rem;
+}
+
+.navbarr img {
+    height: 5rem;
+    width: auto;
+}
+
+.navbar-nav {
+    padding-right: 18rem;
+}
+
+.navbar-nav a {
     /* background-color: #00ffff; */
     font-size: 2rem;
     padding: 0rem 0rem;
 }
 
 
-.heroSection{
+.heroSection {
     /* background-color: aqua; */
 }
-.heroContainer{
+
+.heroContainer {
     /* background-color: aqua; */
     background-image: url(./assets/images/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
 }
-.row{
+
+.row {
     /* background-color: aqua; */
     padding: 2rem 0rem;
 }
-.col{
+
+.col {
     /* background-color: aqua; */
-    position:relative;
+    position: relative;
 }
-.card{
+
+.card {
     /* background-color: aqua; */
     position: absolute;
     top: 20rem;
     left: 4rem;
 }
-.card-body a{
+
+.card-body a {
     background-color: #BE9C79;
     font-family: var(--ffSecondary);
     font-size: 2rem;
 }
-.card-body a:hover{
+
+.card-body a:hover {
     background-color: #000000;
 }
 
 
 
 
-.abouutUsSection{
+.abouutUsSection {
     /* background-color: #7fffd4; */
 }
-.col img{
+
+.aboutUsImg {
     /* background-color: #7fffd4; */
-    height: 50rem;
+    height: 55rem;
+    width: auto;
 }
-.card-body a{
+
+.card-body a {
     background-color: #BE9C79;
     font-family: var(--ffSecondary);
     font-size: 2rem;
 }
-.card-body a:hover{
+
+.card-body a:hover {
     background-color: #000000;
 }
 
 
 
-.facility{
+.facility {
     /* background-color: aqua; */
 }
-.card-heading-img{
+
+.card-heading-img {
     width: 25rem;
     height: 5rem;
 }
-.card-title-heading{
-/* background-color: #BE9C79; */
+
+.card-title-heading {
+    /* background-color: #BE9C79; */
 }
 
-.card-img-top{
+.card-img-top {
     /* background-color: aqua; */
     width: 10rem;
 }
 
+.popular {
+    /* background-color: aliceblue; */
+}
 
+.popularImg {
+    height: 28rem;
+}
 
-.contactUs{
+.teamImg {
+    height: 30rem;
+}
+
+.contactUs {
     /* background-color: #00ffff; */
 }
-.formImg img{
+
+.formImg img {
     /* background-color: aquamarine; */
-    height: 45rem;
+    height: 60rem;
 }
-.formBox{
+
+.formBox {
     border: 1px solid black;
     padding: 2rem 2rem;
     height: fit-content;
 }
-.formHeading h3{
+
+.formHeading h3 {
     /* background-color: aqua; */
     font-family: var(--ffSecondary);
-    font-size:3.5rem;
+    font-size: 3.5rem;
 }
-.form-group input{
+
+.form-group input {
     /* background-color: aquamarine; */
     font-size: 2.5rem;
     padding: 1rem 15rem 1rem 1.5rem;
     border: 1px solid black;
 }
-.btn{
+
+.btn {
     font-size: 2rem;
     background-color: #BE9C79;
     padding: 1rem 3rem;
     color: #ffffff;
     width: fit-content;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #000000;
     color: #ffffff;
 }
@@ -153,18 +200,20 @@
 
 
 
-.icon{
+.icon {
     background-color: #BE9C79;
     height: 7rem;
     width: 7rem;
 }
-.icon i{
+
+.icon i {
     /* background-color: #00ffff; */
     font-size: 4rem;
     color: #ffffff;
     padding: 2rem 2rem;
 }
 
-.copyline{
-    /* width: 90%; */
+.copyLine hr {
+    width: 70%;
+    height: 1.5px;
 }
